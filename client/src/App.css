@@ -1,0 +1,194 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+padding:0;
+background:linear-gradient(135deg,#25a2eb,#9333ea);
+}
+
+/* navbar */
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#1e293b;
+color:white;
+padding:15px 40px;
+}
+
+.navbar h2{
+margin:0;
+}
+
+.nav-links a{
+margin-left:20px;
+color:white;
+text-decoration:none;
+font-size:16px;
+}
+
+.nav-links a:hover{
+color:#38bdf8;
+}
+
+/* home page styling */
+.hero{
+text-align:center;
+padding:120px 20px;
+background:linear-gradient(135deg,#25eba2,#9333ea);
+color:white;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:25px;
+}
+
+.hero button{
+padding:12px 25px;
+font-size:18px;
+background:white;
+color:#2563eb;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+.hero button:hover{
+background:#e2e8f0;
+}
+
+
+
+/* resume form styling */
+
+
+.form-container{
+width:450px;
+margin:60px auto;
+background:white;
+padding:50px;
+border-radius:10px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+}
+
+.form-container h2{
+text-align:center;
+margin-bottom:20px;
+color: #04176b;
+}
+
+.form-container input{
+width:100%;
+padding:10px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:5px;
+font-size:14px;
+}
+
+.form-container button{
+width:100%;
+padding:12px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+}
+
+.form-container button:hover{
+background:#1d4ed8;
+}
+
+/* resume preview styling */
+.resume-container{
+width:700px;
+margin:50px auto;
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+}
+
+.resume-header{
+border-bottom:2px solid #2563eb;
+margin-bottom:20px;
+}
+
+.resume-header h1{
+margin:0;
+}
+
+.resume-section{
+margin-top:20px;
+}
+
+.resume-section h3{
+color:#2563eb;
+margin-bottom:5px;
+}
+
+.download-btn{
+display:block;
+margin:20px auto;
+padding:12px 20px;
+background:#10b981;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+.download-btn:hover{
+background:#059669;
+}
+
+/* footer styling */
+.footer{
+background:#1e293b;
+color:white;
+padding:40px 20px;
+margin-top:60px;
+}
+
+.footer-container{
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+}
+
+.footer-section{
+width:250px;
+margin-bottom:20px;
+}
+
+.footer-section h3,
+.footer-section h4{
+margin-bottom:10px;
+}
+
+.footer-section p,
+.footer-section a{
+margin:5px 0;
+color:#cbd5f5;
+text-decoration: none;
+display:block;
+}
+.footer-section a:hover{
+color:#38bdf8;
+}
+
+
+.footer-bottom{
+text-align:center;
+margin-top:20px;
+border-top:1px solid #475569;
+padding-top:15px;
+font-size:14px;
+}

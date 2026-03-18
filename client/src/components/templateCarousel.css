@@ -1,0 +1,56 @@
+.template-section{
+margin:80px auto;
+text-align:center;
+}
+
+.template-title{
+font-size:32px;
+margin-bottom:30px;
+}
+
+.template-carousel{
+display:flex;
+gap:25px;
+overflow-x:auto;
+padding:20px;
+scroll-behavior:smooth;
+}
+
+.template-carousel::-webkit-scrollbar{
+display:none;
+}
+
+.template-card{
+min-width:260px;
+background:white;
+border-radius:10px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.15);
+padding:15px;
+transition:transform 0.3s;
+}
+
+.template-card:hover{
+transform:scale(1.05);
+}
+
+.template-card img{
+width:100%;
+border-radius:8px;
+}
+
+.template-card h3{
+margin:10px 0;
+}
+
+.use-template{
+background:#2563eb;
+color:white;
+border:none;
+padding:8px 15px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.use-template:hover{
+background:#1d4ed8;
+}
